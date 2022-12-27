@@ -5,7 +5,7 @@ Date : 24/12/2022
 Description: Uses to sync the data_base using threads with winAPI functions
 """
 from synchronization import Synchronization
-from Data_To_File import Data_to_file
+from Data_To_File import DataToFile
 import win32process
 from win32event import WaitForSingleObject as Join, INFINITE
 import logging
