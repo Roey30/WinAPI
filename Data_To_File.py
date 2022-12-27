@@ -12,7 +12,7 @@ from DataBase import *
 FILE_NAME = "data_to_file.bin"
 
 
-class Data_to_file(Database):
+class DataToFile(Database):
     """
     Data to file class
     """
