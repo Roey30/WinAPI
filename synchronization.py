@@ -76,4 +76,4 @@ class Synchronization:
 
 
 if __name__ == '__main__':
-    logging.basicConfig(filename="synchronization", filemode="a", level=logging.DEBUG)
+    logging.basicConfig(filename="synchronization.log", filemode="a", level=logging.DEBUG)
