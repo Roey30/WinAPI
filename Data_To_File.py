@@ -64,7 +64,7 @@ class DataToFile(Database):
 
         :return:
         """
-        file = win32file.CopyFileW(FILE_NAME, win32file.GENERIC_READ, win32file.FILE_SHARE_READ,
+        file = win32file.CreateFileW(FILE_NAME, win32file.GENERIC_READ, win32file.FILE_SHARE_READ,
                                    None, win32file.OPEN_ALWAYS, 0, None)
         logging.debug(f"Data to File: opens file to read {FILE_NAME}")
         try:
